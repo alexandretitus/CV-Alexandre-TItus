@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@700&display=swap');
+
+
+body {
+  margin: 0;
+  font-family: 'Raleway';
+  font-size: 16px;
+  line-height: 1.8em;
+  background-color:rgb(244, 229, 216);
+}
+
+
+a{
+  color: #feffff;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+article {
+  padding:0 1em;
+}
+
+section{
+  margin: 1em;
+  padding: 1em;
+}
+
+header, main, footer {
+  margin: 0 auto;
+}
+
+header {
+  padding: 2em;
+  text-align: center;
+  background-image: url('./img/IMG_1119.JPG');
+  background-size: cover;
+  background-position: fixed;
+  color: rgb(255, 255, 255);
+  z-index:0;
+}
+header:before{
+  background-color: hsla(50%, 100%, 50%, 0.1);
+}
+
+header section {
+  margin: 0 auto;
+  max-width: 640px;
+}
+
+header img {
+  border-radius: 50%;
+  max-width: 250px;
+}
+
+h1 {
+  text-transform: uppercase;
+  margin: 1em 0;
+  font-size: 50px;
+  font-family: 'Agdasima', sans-serif;
+}
+
+h3 {
+  text-transform: uppercase;
+}
+
+h3, h4 {
+  font-weight: bold;
+}
+
+main {
+  max-width: 1140px;
+}
+
+main section:not(:last-child) {
+  border-bottom: 1px solid #ccc;
+}
+
+/* Navbar */
+
+nav{
+  background: #0082e600;
+  height: 100px;
+  width: 100%;
+  z-index: 1;
+  font-family:'Agdasima', sans-serif;
+  text-align: center;
+}
+
+label.logo{
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  /*padding: 15px 50px;*/
+  font-weight: bold;
+  width: 20%;
+  float: left;
+}
+
+nav ul{
+  float: right;
+  z-index: 1;
+  font-size: 100px;
+  vertical-align: auto;
+  margin-right: 80px;
+  line-height: 0px;
+}
+
+nav ul li{
+  display:contents;
+  line-height: 80px;
+  text-align: center;
+}
+
+nav ul li a{
+  color: white;
+  font-size: 17px;
+  padding: 0px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+
+a.active, a:hover{
+  background: #1b9cff00;
+  transition: .5s;
+}
+
+.checkbtn{
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+#check {
+  display: none;
+}
+
+header {
+  margin: 0 auto;
+}
+
+main {
+  max-width: 1140px;
+}
+
+form{
+  text-align:center;  
+  align-items: center;
+  background-color: rgba(245, 245, 245, 0.546);
+  padding: 40px 0;
+  border-radius: 7px;
+  margin:20px;
+  box-shadow: 0 0 20px 2px rgb(172, 171, 171);
+}
+
+form h1{
+  margin-top: 40px;
+  font-size: 40px;
+}
+
+button{
+  background-color:rgb(244, 229, 216);
+  border-radius: 7px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  z-index:0;
+  transition: transform 0.5s;
+  padding: 5px 10px;
+  margin: 10px 5px;
+  box-shadow: 0 0 10px 0px rgb(172, 171, 171);
+}
+
+button:hover{
+  transform: scale(1.05);
+}
+
+
+button a{
+  font-family:'Agdasima', sans-serif;
+  color: black;
+  font-size: 20px;
+}
+/*Media queries*/
+
+@media (max-width: 952px){
+  label.logo{
+    font-size: 30px;
+    padding-left: 40px;
+  }
+  nav ul li a{
+    font-size: 16px;
+  }
+}
+@media (max-width: 1100px){
+  .checkbtn{
+    display: block;
+  }
+
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: rgb(220, 149, 57);
+    top: 150px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+    z-index: 1;
+    padding-left: 0;
+  }
+
+  .progressbox{
+    z-index: 0;
+  }
+
+  nav{
+    position: static;
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+
+  nav ul li a{
+    font-size: 30px;
+  }
+
+  a:hover,a.active{
+    background: none;
+    color: #ffffff;
+  }
+
+  #check:checked ~ ul{
+    left: 0;
+  }
+
+}

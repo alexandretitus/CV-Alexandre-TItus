@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>CV - Alexandre Titus</title>
+  <meta name="description" content="Essaie de CV">
+  <meta name="author" content="Alexandre Titus">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <header>
+    <nav id="navbar">
+      <input type="checkbox" id="check" onclick="Mycolor()" offclick="Mycolor2()">
+      <label for="check" class="checkbtn">
+        <i class='bx bx-menu'></i>
+      </label>
+      <label class="logo"><a href="index.html">AT</a></label>
+      <ul>
+        <li><a class="active" href="exp.html">Expériences</a></li>
+        <li><a class="active" href="formations.html">Formations</a></li>
+        <li><a class="active" href="competences.html">Compétences</a></li>
+        <li><a class="active" href="interests.html">Intérêts</a></li>
+        <li><a class="active" href="contact.html">Me contacter</a></li>
+      </ul>
+    </nav>
+    <div class="photoprofil">
+      <img src="./img/IMG_0527_jpg.jpeg" />
+    </div>
+    <h1>Alexandre Titus</h1>
+    <a href="cv web.pdf" class="downpdf">Télécharger mon CV</a>
+    <section>
+      <p>
+        Bonjour, vous êtes sur mon CV en ligne. Vous retrouverez sur ce site que j'ai moi même developpé, toutes les informations dont vous avez besoin. Pour toutes informations complémentaires, vous pouvez me contacter en cliquant sur le logo téléphone, ou en allant dans la rubrique CONTACT. BONNE VISITE !
+      </p>
+      <a href="tel:+262692497628" target="_blank" alt="0692497628">
+        <i class='bx bxs-phone bx-md'></i>
+      </a>
+      <a href="https://www.linkedin.com/in/ritalyczywek/" target="_blank">
+        <i class='bx bxl-linkedin-square bx-md'></i>
+      </a>
+    </section>
+  </header>
+  <main class="bloc">
+    <section class="stage" id="two scroll">
+      <h3>Quelques <a class="lienresume" href="exp.html">expériences</a> en programmation</h3>
+      <article class="column__">
+        <div class='job-title'>
+          <span>01.2020 - 06.2020</span> <strong>ENERGY LAB (Université de la Réunion)</strong><br> <strong>Poste :</strong> Chargé d'étude
+        </div>
+        <div>
+          <p><strong>Technologie utilisée :</strong> Python</p>
+          <ul class="job-description">
+            <li>Analyse de données</li>
+            <li>Traitement de données</li>
+            <li>Création Algorithme de calcul de la fraction nuageuse</li>
+          </ul>
+        </div>
+      </article>
+      <article class="column__">
+        <div class='job-title'>
+          <span>04.2019 - 06.2019</span> <strong>ENERGY LAB (Université de la Réunion)</strong><br> <strong>Poste :</strong> Chargé d'étude
+        </div>
+        <div>
+          <p><strong>Technologies utilisée :</strong> Python</p>
+          <ul class="job-description">
+            <li>Analyse de données</li>
+            <li>Création d'un algorithme d'optimisation du dimensionnement d'une installation photovoltaique en fonction de la consommation</li>
+          </ul>
+        </div>
+      </article>
+    </section>
+  
+    <section id="three scroll">
+      <h3><a class="lienresume"href="competences.html">Compétences</a> (voir rubrique)</h3>
+      <div class='skills'>
+        <div class="column" id="left">
+          <h4>Techniques</h4>
+          <div class="progressbox">
+            <p class="comp">HTML5</p>
+            <div div class="progress-bar premier"></div>
+          </div>
+          <div class="progressbox">
+            <p class="comp">CSS</p>
+            <div div class="progress-bar deuxieme"></div>
+          </div>
+          <div class="progressbox">
+            <p class="comp">Python</p>
+            <div div class="progress-bar troisieme"></div>
+          </div>
+        </div>
+        <div class="column" id="right">
+          <h4>Soft Skills</h4>
+          <div class="progressbox">
+            <p class="comp">Rigueur</p>
+            <div class="progress-bar quatrieme"></div>
+          </div>
+          <div class="progressbox">
+            <p class="comp">Travail d'équipe</p>
+            <div class="progress-bar cinquieme"></div>
+          </div>
+          <div class="progressbox">
+            <p class="comp">Autonomie</p>
+            <div class="progress-bar sixieme"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="four scroll">
+      <h3>Formations</h3>
+      <article>
+        <div class='school'>
+          <span>2018-2020</span> <strong>Université de la Réunion</strong>
+        </div>
+        <div>
+          Master Gestion de l'Énergie : <span style="text-decoration: underline;">Mention Assez Bien</span>
+        </div>
+      </article>
+      <article>
+        <div class='school'>
+          <span>2015-2018</span> <strong>Université de la Réunion</strong>
+        </div>
+        <div class="descrition">
+          Licence de Physique
+        </div>
+      </article>
+      <article>
+        <div class='school'>
+          <span>2015</span> <strong>Lycée Georges Brassens</strong>
+        </div>
+        <div>
+          Baccalauréat Scientifique : <span style="text-decoration: underline;">Mention Assez Bien</span>
+        </div>
+      </article>
+    </section>
+  </main>
+</body>
+</html>
