@@ -36,7 +36,7 @@ header, main, footer {
 header {
   padding: 2em;
   text-align: center;
-  background-image: url('./img/IMG_1119.JPG');
+  background-image: url('../img/IMG_1119.JPG');
   background-size: cover;
   background-position: fixed;
   color: rgb(255, 255, 255);
@@ -78,165 +78,18 @@ main section:not(:last-child) {
   border-bottom: 1px solid #ccc;
 }
 
-.downpdf{
-  background-color:  rgb(156, 92, 40);
-  color: white;
-  padding:5px 10px;
-  border-radius: 5px;
-  box-shadow: 0 0 10px 0px rgb(255, 255, 255);
-  font-weight:bold;
-}
-
-.lienresume{
-  color: rgba(0, 0, 0, 0.757);
-}
-
-.fab {
-  border: 1px solid white;
-  border-radius: 50%;
-  font-size: 1.5em;
-  width: 1.5em;
-  height: 1.5em;
-  line-height: 1.5em;
-  margin: 5px;
-  text-align: center;
-}
-
-.photoprofil{
-  margin-top: 80px;
-  position: relative;
-}
-/*
-a .fab {
-  color: rgb(230, 197, 168);
-}*/
-
-.course, .skills {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-}
-
-.course .title {
-  color: #509e98;
-  -ms-flex: 0 0 33.3%;
-  flex: 0 0 33.3%;
-  max-width: 33%;
-}
-
-.course .descrition {
-  -ms-flex: 0 0 66.6%;
-  flex: 0 0 66.6%;
-  max-width: 66.6%;
-}
-
-.course .descrition p {
-  padding-left: 1em;
-}
-
-.skills .column {
-  -ms-flex: 0 0 50%;
-  flex: 0 0 50%;
-  max-width: 50%;
-  margin: 0em;
-}
-
-.school, .job-title {
+.job-title {
   text-transform: capitalize;
 }
 
-.school span, .job-title span {
+.job-title span {
   color: rgb(220, 149, 57);
   text-decoration: underline;
 }
-
 ul.job-description li:before{
   content: "✔";
   padding-right: 0.5em;
   color: #509e98;
-}
-
-footer {
- padding: 1em 1.5em;
- background: #A7B8BF;
- color:rgb(230, 197, 168);
- text-align: right;
-}
-
-/*Progress bar*/
-
-.progress-bar {
-  padding: 1em;
-  width: 97%;
-  height: 2em;
-  background-color: #11111194;
-  border-radius: 1.5em;
-  color: white;
-  position: relative;
-}
-
-.progress-bar::before {
-  content: "";
-  position: absolute;
-  left: 0.5em;
-  top: 0.5em;
-  bottom: 0.5em;
-  right: 0.5em;
-  background-color: rgb(220, 149, 57);
-  border-radius: 1em;
-}
-
-
-/* HTML5 */
-.progress-bar.premier::before{
-  min-width: 2rem;
-  max-width: calc(100%-1em);
-  width: 60%;
-}
-
-/* CSS */
-.progress-bar.deuxieme::before{
-  min-width: 2rem;
-  max-width: calc(100%-1em);
-  width: 50%;
-}
-
-/* Python */
-.progress-bar.troisieme::before{
-  min-width: 2rem;
-  max-width: calc(100%-1em);
-  width: 60%;
-}
-
-/* Rigueur */
-.progress-bar.quatrieme::before{
-  min-width: 2rem;
-  max-width: calc(100%-1em);
-  width: 90%;
-}
-
-/* Travail d'équipe */
-.progress-bar.cinquieme::before{
-  min-width: 2rem;
-  max-width: calc(100%-1em);
-  width: 90%;
-}
-
-/* Autonomie */
-.progress-bar.sixieme::before{
-  min-width: 2rem;
-  max-width: calc(100%-1em);
-  width: 90%;
-}
-
-.progressbox{
-  margin: 1em 1em 1em;
-  height: 4em;
-}
-
-.comp{
-  margin: 0;
 }
 
 /* Navbar */
@@ -305,43 +158,7 @@ a.active, a:hover{
 
 /*Media queries*/
 
-@media only screen and (max-width: 768px) {
-  .course {
-    display: block;
-  }
 
-  .course .title, .course .descrition {
-    max-width: 100%;
-  }
-}
-
-@media only screen and (max-width: 576px) {
-  .skills {
-    display: block;
-  } 
-
-  .skills .column {
-    max-width: 100%;
-  }
-
-  footer {
-    text-align: center;
-  }
-
-  .progressbox{
-    display:flex;
-    z-index: 2;
-  }
-
-  .progress-bar{
-    margin:0 1em;
-    z-index: 0;
-  }
-
-  .comp{
-    width: 100%;
-  }
-}
 
 
 @media (max-width: 952px){

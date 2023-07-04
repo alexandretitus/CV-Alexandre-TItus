@@ -33,7 +33,7 @@ header {
 header {
   padding: 2em;
   text-align: center;
-  background-image: url('./img/IMG_1119.JPG');
+  background-image: url('../img/IMG_1119.JPG');
   background-size: cover;
   background-position: fixed;
   color: rgb(255, 255, 255);
@@ -145,7 +145,7 @@ a.active, a:hover{
 
 
 .football{
-  background-image: url('./img/soccer-g6573dc8c3_1920.jpg');
+  background-image: url('../img/soccer-g6573dc8c3_1920.jpg');
   background-size:cover;
   background-position: fixed;
   text-align: center;
@@ -166,7 +166,7 @@ p{
   filter: inherit;
 }
 .sciences{
-  background-image: url('./img/science.jpg');
+  background-image: url('../img/science.jpg');
   background-size:cover;
   background-position: fixed;
   text-align: center;
@@ -180,7 +180,7 @@ p{
 
 
 .technologies{
-  background-image: url('./img/technologie.jpg');
+  background-image: url('../img/technologie.jpg');
   background-size:cover;
   background-position: fixed;
   text-align: center;
@@ -202,7 +202,7 @@ p{
 }
 
 .cinema{
-  background-image: url('./img/film.jpg');
+  background-image: url('../img/film.jpg');
   background-size:cover;
   background-position: fixed;
   text-align: center;
@@ -223,7 +223,7 @@ p{
 }
 
 .histoire{
-  background-image: url('./img/histoire.jpg');
+  background-image: url('../img/histoire.jpg');
   background-size:cover;
   background-position: fixed;
   text-align: center;

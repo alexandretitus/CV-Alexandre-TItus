@@ -36,7 +36,7 @@ header, main, footer {
 header {
   padding: 2em;
   text-align: center;
-  background-image: url('./img/IMG_1119.JPG');
+  background-image: url('../img/IMG_1119.JPG');
   background-size: cover;
   background-position: fixed;
   color: rgb(255, 255, 255);
@@ -78,19 +78,6 @@ main section:not(:last-child) {
   border-bottom: 1px solid #ccc;
 }
 
-.job-title {
-  text-transform: capitalize;
-}
-
-.job-title span {
-  color: rgb(220, 149, 57);
-  text-decoration: underline;
-}
-ul.job-description li:before{
-  content: "✔";
-  padding-right: 0.5em;
-  color: #509e98;
-}
 
 /* Navbar */
 
@@ -154,12 +141,158 @@ a.active, a:hover{
 #check {
   display: none;
 }
+/*Progress bar*/
 
+.skills {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.skills .column {
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
+  margin: 0em;
+}
+
+.progress-bar {
+  padding: 1em;
+  width: 97%;
+  height: 2em;
+  background-color: #11111194;
+  border-radius: 1.5em;
+  color: white;
+  position: relative;
+}
+
+.progress-bar::before {
+  content: "";
+  position: absolute;
+  left: 0.5em;
+  top: 0.5em;
+  bottom: 0.5em;
+  right: 0.5em;
+  background-color: rgb(220, 149, 57);
+  border-radius: 1em;
+}
+
+/* Algorithmique */
+.progress-bar.bar1::before{
+  min-width: 2rem;
+  max-width: calc(100%-1em);
+  width: 70%;
+}
+
+/* HTML */
+.progress-bar.bar2::before{
+  min-width: 2rem;
+  max-width: calc(100%-1em);
+  width: 60%;
+}
+
+/* CSS */
+.progress-bar.bar3::before{
+  min-width: 2rem;
+  max-width: calc(100%-1em);
+  width: 50%;
+}
+
+/* Python */
+.progress-bar.bar4::before{
+  min-width: 2rem;
+  max-width: calc(100%-1em);
+  width: 60%;
+}
+
+/* Matlab */
+.progress-bar.bar5::before{
+  min-width: 2rem;
+  max-width: calc(100%-1em);
+  width: 70%;
+}
+
+/* Swift */
+.progress-bar.bar6::before{
+  min-width: 2rem;
+  max-width: calc(100%-1em);
+  width: 40%;
+}
+
+/* Analyse de données */
+.progress-bar.bar7::before{
+  min-width: 2rem;
+  max-width: calc(100%-1em);
+  width: 60%;
+}
+
+/* Bureautique */
+.progress-bar.bar8::before{
+  min-width: 2rem;
+  max-width: calc(100%-1em);
+  width: 80%;
+}
+
+/*Gestion de Projet*/
+.progress-bar.bar9::before{
+  min-width: 2rem;
+  max-width: calc(100%-1em);
+  width: 60%;
+}
+
+/*Rigueur*/
+.progress-bar.bar10::before{
+  min-width: 2rem;
+  max-width: calc(100%-1em);
+  width: 90%;
+}
+
+/*Travail d'équipe*/
+.progress-bar.bar11::before{
+  min-width: 2rem;
+  max-width: calc(100%-1em);
+  width: 90%;
+}
+
+/*Autonomie*/
+.progress-bar.bar12::before{
+  min-width: 2rem;
+  max-width: calc(100%-1em);
+  width: 90%;
+}
+
+/* Rapidité d'adaptation*/
+.progress-bar.bar13::before{
+  min-width: 2rem;
+  max-width: calc(100%-1em);
+  width: 90%;
+}
+
+/* Curiosité */
+.progress-bar.bar14::before{
+  min-width: 2rem;
+  max-width: calc(100%-1em);
+  width: 90%;
+}
+
+/*Ponctualité*/
+.progress-bar.bar15::before{
+  min-width: 2rem;
+  max-width: calc(100%-1em);
+  width: 95%;
+}
+
+.progressbox{
+  margin: 1em 1em 1em;
+  height: 4em;
+}
+
+.comp{
+  margin: 0;
+}
 
 /*Media queries*/
-
-
-
 
 @media (max-width: 952px){
   label.logo{
@@ -219,4 +352,28 @@ a.active, a:hover{
     left: 0;
   }
 
+}
+@media only screen and (max-width: 576px) {
+  .skills {
+    display: block;
+  } 
+
+  .skills .column {
+    max-width: 100%;
+  }
+
+  .progressbox{
+    display:flex;
+    z-index: 2;
+    margin: 0;
+  }
+
+  .progress-bar{
+    margin:0 1em;
+    z-index: 0;
+  }
+
+  .comp{
+    width: 100%;
+  }
 }
