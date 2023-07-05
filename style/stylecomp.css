@@ -282,7 +282,7 @@ a.active, a:hover{
 .progress-bar.bar15::before{
   min-width: 2rem;
   max-width: calc(100%-1em);
-  width: 95%;
+  width: 9%;
 }
 
 .progressbox{
@@ -352,6 +352,48 @@ a.active, a:hover{
 
   #check:checked ~ ul{
     left: 0;
+  }
+
+  /*Rigueur*/
+  .progress-bar.bar10::before{
+    min-width: 2rem;
+    max-width: calc(100%-1em);
+    width: 70%;
+  }
+
+  /*Travail d'équipe*/
+  .progress-bar.bar11::before{
+    min-width: 2rem;
+    max-width: calc(100%-1em);
+    width: 70%;
+  }
+
+  /*Autonomie*/
+  .progress-bar.bar12::before{
+    min-width: 2rem;
+    max-width: calc(100%-1em);
+    width: 70%;
+  }
+
+  /* Rapidité d'adaptation*/
+  .progress-bar.bar13::before{
+    min-width: 2rem;
+    max-width: calc(100%-1em);
+    width: 70%;
+  }
+
+  /* Curiosité */
+  .progress-bar.bar14::before{
+    min-width: 2rem;
+    max-width: calc(100%-1em);
+    width: 70%;
+  }
+
+  /*Ponctualité*/
+  .progress-bar.bar15::before{
+    min-width: 2rem;
+    max-width: calc(100%-1em);
+    width: 80%;
   }
 
 }
