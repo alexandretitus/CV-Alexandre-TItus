@@ -267,6 +267,8 @@ nav ul{
   vertical-align: auto;
   margin-right: 80px;
   line-height: 0px;
+  margin-top: auto;
+  margin-bottom: 0;
 }
 
 nav ul li{
