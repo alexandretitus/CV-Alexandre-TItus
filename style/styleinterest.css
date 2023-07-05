@@ -305,3 +305,9 @@ p{
   }
 
 }
+
+@media only screen and (max-width: 576px) {
+  h1{
+    padding: 70px 5px;
+  }
+}
