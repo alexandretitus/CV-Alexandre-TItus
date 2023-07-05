@@ -403,3 +403,14 @@ a.active, a:hover{
   }
 
 }
+
+@media only screen and (max-width: 576px) {
+    
+  ul{
+    top: 50px;
+  }
+
+  li{
+    margin: 20px 0;
+  }
+}

@@ -253,4 +253,12 @@ button a{
   h1{
     padding: 70px 5px;
   }
+    
+  ul{
+    top: 50px;
+  }
+
+  li{
+    margin: 20px 0;
+  }
 }
