@@ -375,6 +375,7 @@ a.active, a:hover{
     transition: all .5s;
     z-index: 1;
     padding-left: 0;
+    margin-top: 30px;
   }
 
   .progressbox{
@@ -391,7 +392,7 @@ a.active, a:hover{
 
   nav ul li{
     display: block;
-    margin: 50px 0;
+    margin: 40px 0;
     line-height: 30px;
   }
 
@@ -411,10 +412,6 @@ a.active, a:hover{
 }
 
 @media only screen and (max-width: 576px) {
-    
-  ul{
-    top: 0;
-  }
 
   li{
     margin: 20px 0;
