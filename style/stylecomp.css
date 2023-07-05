@@ -362,6 +362,10 @@ a.active, a:hover{
     max-width: 100%;
   }
 
+  h1{
+    padding: 20px 5px;
+  }
+
   .progressbox{
     display:flex;
     z-index: 2;
