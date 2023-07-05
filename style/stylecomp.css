@@ -300,6 +300,8 @@ a.active, a:hover{
   label.logo{
     font-size: 30px;
     padding-left: 40px;
+    position: relative;
+    z-index: 2;
   }
   nav ul li a{
     font-size: 16px;
@@ -308,6 +310,8 @@ a.active, a:hover{
 @media (max-width: 1100px){
   .checkbtn{
     display: block;
+    position: relative;
+    z-index: 2;
   }
 
   ul{
@@ -315,12 +319,13 @@ a.active, a:hover{
     width: 100%;
     height: 100vh;
     background: rgb(220, 149, 57);
-    top: 90px;
+    top: 0;
     left: -100%;
     text-align: center;
     transition: all .5s;
     z-index: 1;
     padding-left: 0;
+    margin-top: 30px;
   }
 
   .progressbox{
@@ -339,6 +344,8 @@ a.active, a:hover{
     display: block;
     margin: 50px 0;
     line-height: 30px;
+    position: relative;
+    top: 15%;
   }
 
   nav ul li a{

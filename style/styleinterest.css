@@ -246,17 +246,17 @@ p{
   label.logo{
     font-size: 30px;
     padding-left: 40px;
-    z-index: 1;
+    z-index: 2;
+    position: relative;
   }
   nav ul li a{
     font-size: 16px;
-    z-index: 0;
   }
 }
 @media (max-width: 1100px){
   .checkbtn{
     display: block;
-    z-index: 1;
+    z-index: 2;
   }
   label{
     z-index:1;
@@ -266,12 +266,13 @@ p{
     width: 100%;
     height: 100vh;
     background: rgb(220, 149, 57);
-    top: 90px;
+    top: 0;
     left: -100%;
     text-align: center;
     transition: all .5s;
     padding-left: 0;
-    z-index: 0;
+    z-index: 1;
+    margin-top: 30px;
   }
 
   .progressbox{
@@ -290,6 +291,8 @@ p{
     display: block;
     margin: 50px 0;
     line-height: 30px;
+    position: relative;
+    top: 15%;
   }
 
   nav ul li a{
