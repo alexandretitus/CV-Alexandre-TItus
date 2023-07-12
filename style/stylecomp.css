@@ -282,7 +282,7 @@ a.active, a:hover{
 .progress-bar.bar15::before{
   min-width: 2rem;
   max-width: calc(100%-1em);
-  width: 9%;
+  width: 90%;
 }
 
 .progressbox{
