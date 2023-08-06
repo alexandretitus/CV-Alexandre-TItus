@@ -7,7 +7,7 @@ body {
   font-family: 'Raleway';
   font-size: 16px;
   line-height: 1.8em;
-  background-color:rgb(244, 229, 216);
+  background-color: black;
 }
 
 
@@ -73,6 +73,7 @@ h3 {
 
 h3, h4 {
   font-weight: bold;
+  color:white;
 }
 
 main {
