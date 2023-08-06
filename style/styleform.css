@@ -7,7 +7,7 @@ body {
   font-family: 'Raleway';
   font-size: 16px;
   line-height: 1.8em;
-  background-color: white;
+  background-color: black;
 }
 
 
@@ -31,6 +31,7 @@ article {
 section{
   margin: 1em;
   padding: 1em;
+  color:white;
 }
 
 header, main, footer {
