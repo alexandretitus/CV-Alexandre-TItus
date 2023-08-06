@@ -91,7 +91,7 @@ main section:not(:last-child) {
 }
 
 .lienresume{
-  color: rgba(0, 0, 0, 0.757);
+  color: white;
 }
 
 .fab {
@@ -173,7 +173,7 @@ footer {
   padding: 1em;
   width: 97%;
   height: 2em;
-  background-color: #11111194;
+  background-color: white;
   border-radius: 1.5em;
   color: rgb(45, 235, 18);
   position: relative;
