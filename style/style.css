@@ -24,7 +24,9 @@ a:hover {
 article {
   padding:0 1em;
 }
-
+p{
+  color:white;
+}
 section{
   margin: 1em;
   padding: 1em;
