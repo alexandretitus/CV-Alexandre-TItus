@@ -159,7 +159,7 @@ a .fab {
 ul.job-description li:before{
   content: "✔";
   padding-right: 0.5em;
-  color: #509e98;
+  color: rgb(45, 235, 18);
 }
 
 footer {
@@ -401,6 +401,7 @@ a.active, a:hover{
     line-height: 30px;
     position: relative;
     top: 15%;
+    color: rgb(45, 235, 18);
   }
 
   nav ul li a{
@@ -439,7 +440,6 @@ a.active, a:hover{
 }
 
 @media only screen and (max-width: 576px) {
-
   li{
     margin: 20px 0;
   }
