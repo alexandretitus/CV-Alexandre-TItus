@@ -32,6 +32,11 @@ section{
   padding: 1em;
 }
 
+#logoat{
+  width: 50px;
+  height: auto
+}
+
 header, main, footer {
   margin: 0 auto;
 }
