@@ -21,6 +21,12 @@ a:hover {
   opacity: 0.5;
 }
 
+#logoat{
+  width: 40px;
+  height: auto
+}
+
+
 p {
   color: white;
 }

@@ -169,6 +169,12 @@ form h1{
   font-size: 40px;
 }
 
+#logoat{
+  width: 40px;
+  height: auto
+}
+
+
 button{
   background-color:white;
   border-radius: 7px;

@@ -28,6 +28,12 @@ article {
   padding:0 1em;
 }
 
+#logoat{
+  width: 40px;
+  height: auto
+}
+
+
 section{
   margin: 1em;
   padding: 1em;
